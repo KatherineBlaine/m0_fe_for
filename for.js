@@ -5,8 +5,9 @@
 // Use a for statement to log to the console all even numbers between 25 and 75.
 
 for (var i = 25; i < 75; i++) {
-  if ([i] % 2 === 0)
-  console.log([i])
+  if (i % 2 === 0) {
+  console.log(i);
+  }
 }
 
 
@@ -15,7 +16,7 @@ for (var i = 25; i < 75; i++) {
 var weather_options = ["sunny", "snowy", "freezing", "partly cloudy", "drizzly"]
 
 for (var i = 0; i < weather_options.length; i++) {
-  console.log(`The weather is ${weather_options[i]} today!`)
+  console.log(`The weather is ${weather_options[i]} today!`);
 }
 
 
@@ -24,8 +25,9 @@ for (var i = 0; i < weather_options.length; i++) {
 var words = ["car", "bike", "bus", "van", "scooter", "truck", "rv"]
 
 for (var i = 0; i < words.length; i++) {
-  if (words[i].length === 3)
-  console.log(words[i])
+  if (words[i].length === 3) {
+    console.log(words[i]);
+  }
 }
 
 
